@@ -114,11 +114,33 @@ address {
   align-items: center;
 }
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+} */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("../images/ourteam.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.hero-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
 
 .hero .page-title {
   margin-right: auto;
