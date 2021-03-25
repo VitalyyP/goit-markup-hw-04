@@ -133,6 +133,10 @@ address {
   background-position: center;
 }
 
+.hero .botton {
+  display: block;
+}
+
 .hero-content,
 .hero .botton {
   margin-left: auto;
