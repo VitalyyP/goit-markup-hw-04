@@ -133,17 +133,11 @@ address {
   background-position: center;
 }
 
-.hero-content {
-  margin-left: auto;
-  margin-right: auto;
-}
-
+.hero-content,
 .hero .botton {
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
-
-
 
 .hero .page-title {
   margin-right: auto;
