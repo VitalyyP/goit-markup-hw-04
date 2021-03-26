@@ -3,6 +3,7 @@
   --main-bg-color: #e5e5e5;
   --accent-color: #2196f3;
   --lite-bg-color: #ffffff;
+  --bg-color: #f5f4f4;
   --dark-bg-color: #2f303a;
   --title-color: #212121;
 }
@@ -183,6 +184,21 @@ address {
   padding-bottom: 10px;
 }
 
+.benefits-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--bg-color);
+}
+
+.benefits-item.icon-antenna::before {
+  background-image: url("../");
+}
+
+
 .directions {
   padding-top: 0;
 }
@@ -276,7 +292,7 @@ address {
 }
 
 .team {
-  background-color: #f5f4f4;
+  background-color: var(--bg-color);
 }
 
 .footer {
@@ -301,6 +317,22 @@ address {
 .address-list .address-item:not(:last-child) {
   margin-bottom: 8px;
 }
+
+.socials .link {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  background-color: #44454e;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.socials .icon-instagram {
+  background-image: url("../images/icons/instagram.png");
+}
+
 .filter {
   display: flex;
   justify-content: center;
