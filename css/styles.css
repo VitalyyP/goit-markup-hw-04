@@ -410,6 +410,7 @@ address {
 }
 
 .socials {
+  padding-top: 12px;
   color: var(--lite-bg-color);
 }
 
