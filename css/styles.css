@@ -317,12 +317,12 @@ address {
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  stroke: var(--main-text-color);
+  fill: var(--main-text-color);
 }
 
 .auth-nav .link:hover .icon,
 .auth-nav .link:focus .icon {
-  stroke: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .lite-bg {
@@ -416,6 +416,7 @@ address {
 
 .socials p {
   margin-bottom: 20px;
+  font-weight: 700;
 }
 .social-icons {
   display: flex;
@@ -439,7 +440,7 @@ address {
 .social-icon .icon {
   width: 20px;
   height: 20px;
-  fill: var(--icon-color);
+  fill: var(--lite-bg-color);
 }
 
 .social-icon:not(:last-child) {
